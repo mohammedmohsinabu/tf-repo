@@ -2,8 +2,7 @@ variable "region" {
   default = "us-east-2"
 }
 
-variable "ami"
-{
+variable "ami"{
 default="ami-01c879d7b523d1dde"
 }
 
