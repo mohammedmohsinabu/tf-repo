@@ -1,5 +1,5 @@
 resource "aws_instance" "ionapp" {
-  ami                         = "{var.ami}"
+  ami                         = "${var.ami}"
   instance_type               = "t2.micro"
   associate_public_ip_address = "true"
   subnet_id                   = "${aws_subnet.PublicAZA.id}"
